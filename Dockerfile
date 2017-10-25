@@ -10,5 +10,5 @@ FROM registry.access.redhat.com/rhscl/redis-32-rhel7
 EXPOSE 6379
 
 # Define default command.
-CMD ["redis-server", "/etc/redis/redis.conf"]
+CMD ["redis-server", "/etc/redis.conf"]
 
